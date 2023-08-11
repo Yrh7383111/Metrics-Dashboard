@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ATCTotalCardCollectionViewCell" customModule="DashboardApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="147" height="163"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="147" height="163"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kxP-v7-QAg" userLabel="Container View">
+                        <rect key="frame" x="14.5" y="3.5" width="132" height="156"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VB4-6S-H7b" userLabel="Total Number Label">
+                                <rect key="frame" x="44.5" y="35.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPI-ML-GhW" userLabel="Total Title Label">
+                                <rect key="frame" x="25" y="10" width="82" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sg1-Lp-UTK">
+                                <rect key="frame" x="29" y="119" width="27" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bPI-ML-GhW" firstAttribute="centerX" secondItem="kxP-v7-QAg" secondAttribute="centerX" id="Gjb-eI-1x5"/>
+                            <constraint firstAttribute="trailing" secondItem="bPI-ML-GhW" secondAttribute="trailing" constant="25" id="fBa-wT-fef"/>
+                            <constraint firstItem="bPI-ML-GhW" firstAttribute="leading" secondItem="kxP-v7-QAg" secondAttribute="leading" constant="25" id="fc9-Ed-2zb"/>
+                            <constraint firstItem="VB4-6S-H7b" firstAttribute="centerX" secondItem="kxP-v7-QAg" secondAttribute="centerX" id="hpm-AY-UKe"/>
+                            <constraint firstItem="VB4-6S-H7b" firstAttribute="top" secondItem="bPI-ML-GhW" secondAttribute="bottom" constant="5" id="wHO-6z-wni"/>
+                            <constraint firstItem="bPI-ML-GhW" firstAttribute="top" secondItem="kxP-v7-QAg" secondAttribute="top" constant="10" id="wx2-mW-5lw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="kxP-v7-QAg" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" constant="-15" id="R2G-MV-xy4"/>
+                <constraint firstItem="kxP-v7-QAg" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" constant="7" id="c3w-3E-PDF"/>
+                <constraint firstItem="kxP-v7-QAg" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" constant="-7" id="qQj-Fk-1Xd"/>
+                <constraint firstItem="kxP-v7-QAg" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="uUT-qb-hKt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="147" height="163"/>
+            <connections>
+                <outlet property="cardContainerView" destination="kxP-v7-QAg" id="8pb-Sn-7tB"/>
+                <outlet property="cardImageView" destination="sg1-Lp-UTK" id="4Ue-MK-HcD"/>
+                <outlet property="totalNumberLabel" destination="VB4-6S-H7b" id="aLs-j8-tJo"/>
+                <outlet property="totalTitleLabel" destination="bPI-ML-GhW" id="Vko-zJ-Tkt"/>
+            </connections>
+            <point key="canvasLocation" x="-44.5" y="110.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

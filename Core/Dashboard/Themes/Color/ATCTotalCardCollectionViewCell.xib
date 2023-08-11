@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ATCTotalCardCollectionViewCell" customModule="DashboardApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="288" height="135"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="288" height="135"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s30-ke-zhj" userLabel="Container View">
+                        <rect key="frame" x="16" y="0.0" width="272" height="135"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjk-zv-fYD" userLabel="Total Label">
+                                <rect key="frame" x="10" y="73" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17y-Z8-KQ2" userLabel="Total Number Label">
+                                <rect key="frame" x="10" y="99" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KQx-nH-45m" userLabel="Card Image View">
+                                <rect key="frame" x="208" y="16" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="4Ho-nE-h7h"/>
+                                    <constraint firstAttribute="height" constant="50" id="Zta-xa-Mj8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KQx-nH-45m" secondAttribute="trailing" constant="14" id="AWb-6H-RDp"/>
+                            <constraint firstAttribute="bottom" secondItem="17y-Z8-KQ2" secondAttribute="bottom" constant="15" id="Hnb-as-atx"/>
+                            <constraint firstItem="17y-Z8-KQ2" firstAttribute="leading" secondItem="s30-ke-zhj" secondAttribute="leading" constant="10" id="kOv-TL-tkd"/>
+                            <constraint firstItem="vjk-zv-fYD" firstAttribute="leading" secondItem="s30-ke-zhj" secondAttribute="leading" constant="10" id="vba-Ch-SjH"/>
+                            <constraint firstItem="KQx-nH-45m" firstAttribute="top" secondItem="s30-ke-zhj" secondAttribute="top" constant="16" id="zmZ-0E-tMj"/>
+                            <constraint firstItem="17y-Z8-KQ2" firstAttribute="top" secondItem="vjk-zv-fYD" secondAttribute="bottom" constant="5" id="zzU-D5-UDi"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="s30-ke-zhj" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="LFE-fg-Dx5"/>
+                <constraint firstItem="s30-ke-zhj" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" constant="-16" id="na7-TZ-AcE"/>
+                <constraint firstItem="s30-ke-zhj" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" constant="8" id="pbD-Q9-JkO"/>
+                <constraint firstItem="s30-ke-zhj" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="tCt-hT-apm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="288" height="135"/>
+            <connections>
+                <outlet property="cardContainerView" destination="s30-ke-zhj" id="7aK-1E-kVQ"/>
+                <outlet property="cardImageView" destination="KQx-nH-45m" id="a9k-mi-ZC9"/>
+                <outlet property="totalNumberLabel" destination="17y-Z8-KQ2" id="psQ-Ii-X7b"/>
+                <outlet property="totalTitleLabel" destination="vjk-zv-fYD" id="zHu-lc-fEI"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="96.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
