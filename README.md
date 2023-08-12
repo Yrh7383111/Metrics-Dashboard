@@ -1,5 +1,5 @@
 # Metrics Dashboard
-Metrics dashboard is a real-time data management app for business sellers to manage their sales more effectively, with unique functionalities such as third-party login, date range picking, analytical dashboard, task planning and notification.
+Metrics dashboard is a sales management iOS app for business sellers, with unique functionalities such as third-party login, date range picking, analytical dashboard, task planning and notification.
 
 ## Project Setup
 ```
