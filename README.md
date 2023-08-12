@@ -15,7 +15,7 @@ Database: Firebase
 
 Back-end: Swift and other CocoaPods packages
 
-Features: Signup, Facebook Login, Date Range, Analytical Dashboards, Task Plannings, Notifications
+Features: Facebook Login, Date Range, Analytical Dashboards, Task Plannings, Notifications
 ```
 
 
