@@ -1,5 +1,5 @@
 # Metrics Dashboard
-
+Metrics dashboard is a real-time data management app for business sellers to manage their sales more effectively, with unique functionalities such as date range picking, analytical dashboards, task plannings and notifications.
 
 ## Project Setup
 ```
@@ -15,7 +15,7 @@ Database: Firebase
 
 Back-end: Swift and other CocoaPods packages
 
-Features: Signup, Facebook Login, Date Range, Analytical Dashboards, Task Planning, Notifications
+Features: Signup, Facebook Login, Date Range, Analytical Dashboards, Task Plannings, Notifications
 ```
 
 
@@ -46,9 +46,9 @@ Features: Signup, Facebook Login, Date Range, Analytical Dashboards, Task Planni
 ![Analytics Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Analytics.png)
 
 ### Customers Page
-1. Customers Page 1
+#### Customers Page 1
 ![Customers Page 1](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Customers%20-%201.png)
-2. Customers Page 2
+#### Customers Page 2
 ![Customers Page 2](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Customers%20-%202.png)
 
 ### Orders Page
@@ -58,9 +58,9 @@ Features: Signup, Facebook Login, Date Range, Analytical Dashboards, Task Planni
 ![Tasks Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Tasks.png)
 
 ### Products Page
-1. Products Page 1
+#### Products Page 1
 ![Products Page 1](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Products%20-%201.png)
-2. Products Page 2
+#### Products Page 2
 ![Products Page 2](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Products%20-%202.png)
 
 ### Notifications Page
