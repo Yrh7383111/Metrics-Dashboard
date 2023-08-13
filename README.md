@@ -43,13 +43,13 @@ Features: Facebook Login, Date Range, Analytical Dashboards, Task Plannings, Not
 ![Categories Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Categories.png)
 
 ### Analytics Page
-![Analytics Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Analytics.png)
+#### Analytics Page 1
+![Analytics Page 1](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Analytics%20-%201.png)
+#### Analytics Page 2
+![Analytics Page 2](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Analytics%20-%202.png)
 
 ### Customers Page
-#### Customers Page 1
-![Customers Page 1](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Customers%20-%201.png)
-#### Customers Page 2
-![Customers Page 2](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Customers%20-%202.png)
+![Customers Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Customers%20-%202.png)
 
 ### Orders Page
 ![Orders Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Orders.png)
@@ -58,10 +58,7 @@ Features: Facebook Login, Date Range, Analytical Dashboards, Task Plannings, Not
 ![Tasks Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Tasks.png)
 
 ### Products Page
-#### Products Page 1
-![Products Page 1](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Products%20-%201.png)
-#### Products Page 2
-![Products Page 2](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Products%20-%202.png)
+![Products Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Products%20-%202.png)
 
 ### Notifications Page
 ![Notifications Page](https://github.com/Yrh7383111/Metrics-Dashboard/blob/master/Visualizations/Notifications.png)
